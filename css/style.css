@@ -21,6 +21,8 @@ body {
 	max-height: 100%;
 	width: auto;
   	height: auto;
+	background-size: cover;
+	background-position: center;
 	background: #b4d4ff url(../images/banner.jpg);
 }
 .name {
@@ -36,8 +38,8 @@ body {
 }
 .navigation-content {
 	margin: 0 auto;
-	width: 1150px;
-	height: 45px;
+	width: 1000px;
+	height: 40px;
 }
 .panda {
 	font-size: 35px;
@@ -51,14 +53,13 @@ body {
 }
 .navigation-content a {
 	display: block;
-	float: left;
-	height: 45px;
-	line-height: 45px;
+	float: center;
+	height: 40px;
+	line-height: 40px;
 	color: #b4d4ff;
-	font-weight: bold;
 	font-size: 18px;
 	text-align: center;
-	width: 190px;
+	width: 180px;
 	text-decoration: none;
 }
 .navigation-content a:hover {
@@ -88,10 +89,4 @@ a:link {
 }
 a:visited {
 	color: #4f4c53;
-}
-
-.col4 img {
-	display: block;
-	float: left;
-	margin-top: ;
 }
