@@ -70,7 +70,7 @@ body {
 
 .body {
 	width: 800px;
-	margin-left: 200px auto;
+	margin-left: 0 auto;
 }
 
 .body p {
@@ -80,11 +80,8 @@ body {
 
 .col1 {
 	float: left;
-}
-
-.col1 {
 	width: 700px;
-	margin-left: 20px;
+	margin-left: 200px;
 }
 
 a:link {
