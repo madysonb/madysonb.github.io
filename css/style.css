@@ -17,12 +17,11 @@ body {
 .image-content {
 	display: block;
 	margin: 0 auto;
-	max-width: 100%;
-	max-height: 100%;
-	width: auto;
-  	height: auto;
-	background-size: cover;
+	max-width: 1000px;
+	max-height: 303px;
 	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	background: #b4d4ff url(../images/banner.jpg);
 }
 .name {
@@ -53,7 +52,7 @@ body {
 }
 .navigation-content a {
 	display: block;
-	float: center;
+	float: left;
 	height: 40px;
 	line-height: 40px;
 	color: #b4d4ff;
