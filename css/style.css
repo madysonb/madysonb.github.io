@@ -33,8 +33,9 @@ body {
 
 .navigation {
 	display: block;
+	float: left;
 	width: 200px;
-	max-height: max-content;
+	max-height: ;
 	background: #173f5c;
 	margin: 0;
 	padding: 0;
@@ -69,7 +70,7 @@ body {
 }
 
 .body {
-	width: 800px;
+	width: 1000px;
 	margin-left: 0 auto;
 }
 
