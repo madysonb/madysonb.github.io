@@ -19,7 +19,7 @@ body {
 	margin: 0 auto;
 	width: 1150px;
 	height: 303px;
-	background: #b4d4ff url(../images/banner.HEIC);
+	background: #b4d4ff url(../images/banner.png);
 }
 .name {
 	font-size: 48px;
@@ -52,7 +52,7 @@ body {
 	float: left;
 	height: 45px;
 	line-height: 45px;
-	color: #7BAFD4;
+	color: #b4d4ff;
 	font-weight: bold;
 	font-size: 18px;
 	text-align: center;
@@ -60,7 +60,7 @@ body {
 	text-decoration: none;
 }
 .navigation-content a:hover {
-	background: #2b3d49;
+	background: #070a0c;
 }
 
 .body {
@@ -123,11 +123,9 @@ a:link {
 	color: #6699FF;
 }
 a:visited {
-	color: #dd9700;
+	color: #4d00dd;
 }
-.navigation-content a {
-	color: #7BAFD4;
-}
+
 .col4 img {
 	display: block;
 	float: left;
