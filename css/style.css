@@ -26,8 +26,8 @@ body {
 	background: #b4d4ff url(../images/banner.jpg);
 }
 .name {
-	font-size: 48px;
-	margin: 50px 0 0 20px;
+	font-size: 24px;
+	margin: 200px 0 0 20px;
 	float: left;
 }
 
@@ -52,8 +52,9 @@ body {
 }
 .navigation-content a {
 	display: block;
-	float: left;
+	float: center;
 	height: 40px;
+	width: 200px;
 	line-height: 40px;
 	color: #b4d4ff;
 	font-size: 18px;
