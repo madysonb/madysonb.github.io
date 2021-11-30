@@ -31,11 +31,20 @@ body {
 	float: left;
 }
 
+.float-container {
+    padding: 10px;
+}
+
+.float-child {
+    width: 201px;
+    float: left;
+}  
+
+
 .navigation {
 	display: block;
 	float: left;
 	width: 200px;
-	max-height: ;
 	background: #173f5c;
 	margin: 0;
 	padding: 0;
@@ -81,8 +90,8 @@ body {
 
 .col1 {
 	float: left;
-	width: 700px;
-	margin-left: 200px;
+	width: 590px;
+	margin-left: 210px;
 }
 
 a:link {
