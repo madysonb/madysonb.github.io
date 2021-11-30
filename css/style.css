@@ -20,6 +20,8 @@ body {
 	margin: 0 auto;
 	max-width: 800px;
 	max-height: 303px;
+	min-width: 750px;
+	min-height: 300px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -82,7 +84,7 @@ body {
 
 .body {
 	width: 1000px;
-	margin-left: 0 auto;
+	margin-left: 10 auto;
 }
 
 .body p {
