@@ -9,13 +9,13 @@ body {
     padding-right:23px;
 }
 
-.image-wrapper {
+.header-image-wrapper {
 	max-width:100%;
 	max-height:100%;
 	background: #b4d4ff;
 	margin-left: 200px;
 }
-.image-content {
+.header-image-content {
 	display: block;
 	margin: 0 auto;
 	max-width: 800px;
@@ -37,6 +37,7 @@ body {
 
 .float-child {
     width: 201px;
+	height: 100%;
     float: left;
 }  
 
@@ -45,6 +46,7 @@ body {
 	display: block;
 	float: left;
 	width: 200px;
+	height: 100%;
 	background: #173f5c;
 	margin: 0;
 	padding: 0;
