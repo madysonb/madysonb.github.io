@@ -9,16 +9,17 @@ body {
     padding-right:23px;
 }
 
-.header-image-wrapper {
+.image-wrapper {
 	max-width:100%;
 	max-height:100%;
 	background: #b4d4ff;
 }
-.header-image-content {
+.image-content {
 	display: block;
 	margin: 0 auto;
 	max-width: 100%;
 	max-height: 100%;
+	object-fit: contain;
 	background: #b4d4ff url(../images/banner.jpg);
 }
 .name {
@@ -65,7 +66,7 @@ body {
 
 .body {
 	width: 760px;
-	margin: 40px auto;
+	margin: 20px auto;
 }
 
 .body p {
