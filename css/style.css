@@ -32,10 +32,12 @@ body {
 }
 
 .navigation {
+	display: block;
 	width: 200px;
-	max-height: fit-content;
+	max-height: max-content;
 	background: #173f5c;
-	margin: 0 auto;
+	margin: 0;
+	padding: 0;
 }
 .navigation-content {
 	margin: 0 auto;
@@ -60,7 +62,6 @@ body {
 	color: #b4d4ff;
 	font-size: 18px;
 	text-align: center;
-	width: 180px;
 	text-decoration: none;
 }
 .navigation-content a:hover {
