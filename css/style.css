@@ -129,6 +129,35 @@ p.indent {
 	float: center;
 }
 
+.col3 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-left: 1vw;
+	width: 35vw;
+	float: right;
+
+}
+
+.col3 img {
+	width: 30vw;
+	float: center;
+}
+
+.col4 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-left: 200px;
+	width: 50vw;
+	float: center;
+
+}
+
+.col4 img {
+	width: 50vw;
+	float: center;
+}
+
+
 a:link {
 	color: #b4d4ff;
 }
