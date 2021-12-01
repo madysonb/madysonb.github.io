@@ -94,6 +94,20 @@ body {
 	width: 85vw;
 }
 
+
+p.two{
+	text-indent: 0 hanging;
+	margin: 0;
+	padding-left: 50px;
+	padding-bottom: 10px;
+}
+
+p.indent {
+	margin: 0;
+	padding-left: 80px;
+ 	text-indent: 60px hanging;
+}
+
 .col1 {
 	margin-top: 10px;
 	margin-bottom: 10px;
