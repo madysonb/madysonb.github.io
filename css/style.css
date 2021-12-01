@@ -91,7 +91,7 @@ body {
 .body p {
 	margin-top: 10px;
 	margin-bottom: 10px;
-	width: 85vw;
+	width: 70vw;
 }
 
 
@@ -99,6 +99,7 @@ p.two{
 	text-indent: 0 hanging;
 	margin: 0;
 	padding-left: 50px;
+	/* padding-right: 50px; */
 	padding-bottom: 10px;
 }
 
