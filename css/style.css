@@ -76,6 +76,8 @@ body {
 	text-align: center;
 	text-decoration: none;
 }
+
+
 .navigation-content a:hover {
 	background: #070a0c;
 }
@@ -114,9 +116,16 @@ body {
 }
 
 a:link {
-	color: #4f4c53;
+	color: #b4d4ff;
 }
 a:visited {
+	color: #b4d4ff;
+}
+
+a.one:link {
+	color: #4f4c53;
+}
+a.one:visited {
 	color: #4f4c53;
 }
 
