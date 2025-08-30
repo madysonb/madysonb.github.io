@@ -101,11 +101,13 @@ body {
 
 .float-child {
     width: 150px;
-	height: 100vh;
+    height: 100vh;
     float: left;
-	background: #173f5c;
-	position: fixed;
+    background: #173f5c;
+    position: fixed;
+	padding-top: 1rem;
 }  
+
 
 .p_float {
 	/* display: block; */
@@ -118,12 +120,13 @@ body {
 }
 
 .avatar {
-	margin-left: 3vh;
-	margin-top: 3vh;
-	/* margin-bottom: 5vh; */
-	width: 15vh;
-	height: 15vh;
-	border-radius: 50%;
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 
