@@ -46,24 +46,34 @@ content="text/html;charset=utf-8" />
             <p><br></p>
 
             <center><div class="col4">
-                <center><b><font size="4"><a name="metal">Raleigh, NC</a></b></font></center> 
+                <center><b><font size="4"><a name="metal">Talks</a></b></font></center> 
                 <!-- Slideshow container -->
                 <div class="slideshow-container">
                     
                     <!-- Full-width images with number and caption text -->
-                    <div class="mySlidesNone fade">
-                    <div class="numbertext">1 / 6</div>
+                    <div class="mySlides7 fade">
+                    <div class="numbertext">1 / 2</div>
                     <img src="images/IMG_9692.jpeg" style="width:100%">
-                    <div class="text">NC Museum of Natural Sciences</div>
+                    <div class="text">NC Museum of Natural Sciences - February 2025</div>
                     </div>
+
+                    <div class="mySlides7 fade">
+                    <div class="numbertext">2 / 2</div>
+                    <img src="images/gtcc.jpeg" style="width:100%">
+                    <div class="text">Stellar Lecture Guildford College - May 2025</div>
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1, 6)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 6)">&#10095;</a>
                 
                 </div>
                 <br>
                 
                 <details class = 'center'>
-                    <summary>February 2025</summary>
+                    <summary>On going</summary>
                 
-                    <p>Sometimes I end up in spaces I have no business being in. Including on a stage at the museum with actual NASA scientists while I yap about why planets are cool.</p>
+                    <p>Sometimes I go against my anxiety and end up agreeing to give talks. Including on a stage at the Raleigh science museum with actual NASA scientists while I yap about why planets are cool. Check out my talk at Guildford Tech Community College <a class="one" href="https://www.youtube.com/watch?v=zrLQKPn5O60">here</a>!</p>
                 </details>
                 
             </div></center>
@@ -383,8 +393,8 @@ content="text/html;charset=utf-8" />
     </footer>
 
     <script>
-        let slideIndex = [1,1,1,1,1,1];
-        let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]
+        let slideIndex = [1,1,1,1,1,1,1];
+        let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6", "mySlides7"]
         let i;
         for (i = 0; i<slideId.length; i++) {
             showSlides(1, i);
